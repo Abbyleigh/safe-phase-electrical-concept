@@ -25,8 +25,8 @@ export function CustomerReviews() {
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
           <div className="rounded-xl border bg-card p-7">
             <p className="text-sm font-semibold text-muted-foreground">Google Business Profile</p>
-            <div className="mt-3 flex items-center gap-3"><span className="font-display text-4xl font-extrabold">5.0</span><Star className="size-6 fill-amber text-amber" aria-hidden="true" /><span className="text-sm text-muted-foreground">2 reviews at verification</span></div>
-            <p className="mt-3 text-xs text-muted-foreground">Snapshot rating; check Google for current reviews. No Google review text is reproduced here.</p>
+            <div className="mt-3 flex items-center gap-3"><span className="text-base font-semibold">Read current customer feedback on Google</span></div>
+            <p className="mt-3 text-xs text-muted-foreground">The Google rating and review count are not reproduced until the exact business listing is independently confirmed.</p>
           </div>
           <div className="rounded-xl border bg-card p-7">
             <p className="text-sm font-semibold text-muted-foreground">Yell customer ratings</p>
@@ -37,7 +37,7 @@ export function CustomerReviews() {
         <ul className="mt-5 grid gap-5 md:grid-cols-3">
           {feedback.map((item) => <li key={item.name} className="rounded-xl border bg-card p-7 shadow-card">
             <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Yell review summary</p>
-            <p className="mt-5 leading-relaxed">“{item.summary}”</p>
+            <p className="mt-5 leading-relaxed">{item.summary}</p>
             <p className="mt-6 font-semibold">{item.name}</p>
             <p className="text-xs text-muted-foreground">{item.date} · Paraphrased, not a direct quote</p>
           </li>)}
