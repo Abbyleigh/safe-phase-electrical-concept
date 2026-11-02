@@ -16,6 +16,7 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/site/Reveal";
 import { CtaBand } from "@/components/site/CtaBand";
 import { FaqSection } from "@/components/site/FaqSection";
+import { CustomerReviews } from "@/components/site/CustomerReviews";
 import { ProjectPlaceholder } from "@/components/site/ProjectPlaceholder";
 import { business, categories, categoryBlurbs, placeholderProjects } from "@/lib/site";
 
@@ -323,6 +324,7 @@ function Home() {
         </Reveal>
       </section>
 
+      <CustomerReviews />
       <FaqSection id="home-faq" />
       <CtaBand />
     </>
