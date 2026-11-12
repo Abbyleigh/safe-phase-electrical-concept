@@ -1,24 +1,38 @@
-# Safe Phase Electrical Concept
+# Safe Phase Electrical — Website Concept
 
-Build a polished, functional, responsive multi-page concept website for Safe Phase Electrical (safephaseelec.co.uk), a North East England electrical contractor. This is an UNOFFICIAL speculative redesign demo, not commissioned. Use React TypeScript Tailwind and accessible components. Premium visual identity: midnight navy, warm white, electric amber, bold typography, beautiful electrician/installation imagery from legitimately usable sources, restrained animation. Pages Home, Services (domestic, commercial, industrial, testing/inspection, CCTV/security), About, Projects, Contact. Sticky responsive navigation, mobile menu, click-to-call only if verified phone from source, functioning service filtering, FAQ accordion, form validation and a DEMO-ONLY enquiry form that shows a confirmation locally and does not send data, no fake testimonials or invented accreditations, no fabricated projects; use clearly marked illustrative project placeholders. Prominent 'Unofficial design concept — not affiliated with Safe Phase Electrical' notice across all pages. Include tasteful persuasive copy, SEO meta tags, keyboard accessibility and reduced-motion support. Do not scrape/copy protected imagery or assert unverified claims. Make the homepage exceptionally polished and all navigation functional. Build now and provide preview.
+**An unofficial website redesign concept for an electrical contractor in North East England.**
 
-This project was built with [Lovable](https://lovable.dev).
+This is a speculative design exercise, **not a commissioned project**. It is not affiliated with or endorsed by Safe Phase Electrical.
 
-## Build with Lovable
+I wanted to practise designing a service-business website that feels modern without making it difficult for customers to find what they need. The focus is clear navigation, responsive layouts, readable service information and a straightforward way to enquire.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/1e464749-8a96-4581-9d8b-ab70786b5366).
+## The concept
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+The design explores:
 
-## Development
+- A responsive homepage and service pages
+- Domestic, commercial and industrial electrical service information
+- Testing, inspection and security/CCTV service sections
+- Accessible navigation, FAQs and form validation
+- A midnight-navy, warm-white and amber colour palette
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+**Important:** The enquiry form is a demonstration only and does not submit real enquiries. Any illustrative project content is not evidence of completed client work. Business claims, contact details and accreditations must be verified before use.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+## Technology
+
+React · TypeScript · Tailwind CSS
+
+This concept was developed using [Lovable](https://lovable.dev), with the project available in the [Lovable editor](https://lovable.dev/projects/1e464749-8a96-4581-9d8b-ab70786b5366).
+
+## Run locally
+
+You'll need Node.js and npm.
+
+```bash
+git clone https://github.com/Abbyleigh/safe-phase-electrical-concept.git
+cd safe-phase-electrical-concept
+npm install
 npm run dev
 ```
+
+This repository is a portfolio concept, not the contractor's official website.
